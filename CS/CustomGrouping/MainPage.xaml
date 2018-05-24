@@ -1,0 +1,20 @@
+﻿<Page xmlns:Grid="using:DevExpress.UI.Xaml.Grid" 
+    x:Class="CustomGrouping.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomGrouping"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid:GridControl Name="grid" CustomColumnGroup="GridControl_CustomColumnGroup" CustomGroupDisplayText="GridControl_CustomGroupDisplayText" >
+            <Grid:GridControl.Columns>
+                <Grid:GridTextColumn FieldName="ProductName" />
+                <Grid:GridTextColumn FieldName="Supplier" />
+                <Grid:GridTextColumn FieldName="UnitPrice" SortMode="Custom"/>
+                <Grid:GridTextColumn FieldName="Quantity" />
+            </Grid:GridControl.Columns>
+        </Grid:GridControl>
+    </Grid>
+</Page>
