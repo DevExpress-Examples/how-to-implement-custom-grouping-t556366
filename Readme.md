@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainPage.xaml](./CS/CustomGrouping/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/CustomGrouping/MainPage.xaml.vb))
+* [MainPage.xaml](./CS/CustomGrouping/MainPage.xaml) (VB: [MainPage.xaml](./VB/CustomGrouping/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/CustomGrouping/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/CustomGrouping/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to: Implement Custom Grouping
